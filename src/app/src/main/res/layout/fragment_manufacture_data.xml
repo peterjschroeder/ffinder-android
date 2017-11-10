@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gnirt69.databaseViewer.ManufactureData">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+
+            android:id="@+id/imageView2"
+            android:layout_gravity="center"
+
+
+            android:layout_width="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:text="name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/typeText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="series"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seriesText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="subseries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subseriesText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="manufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturerText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="manufacturerNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturerNoText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="UPC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UPCText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/heightText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="accessories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/accessoriesText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="ageRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ageRangeText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+         <TextView
+            android:text="genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genreText"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</FrameLayout>
